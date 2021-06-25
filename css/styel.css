@@ -1,0 +1,193 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header{
+	width: auto;
+ 	background: url('../images/banner.png') center top no-repeat ;
+ 	background-size: cover;
+}
+.header .bg-light {
+    background-color: transparent !important;
+}
+.header .navbar-brand img{
+	width: 200px;
+} 
+.header .navbar-light .navbar-nav .nav-link {
+    color:#000; 
+   	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px 0px 0px 20px;
+
+}
+.header .navbar-light .navbar-nav .nav-link:hover{
+	color:#BB0000;
+}
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+.inner-banner{
+	width: 50%;
+}
+.inner-banner h3{
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #42200B;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+.inner-banner h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 100px;
+	font-weight: 900;
+	color: #42200B;
+	margin-bottom: 20px;
+}
+.inner-banner h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 75px;
+	font-weight: 800;
+	color: #42200B;
+	margin-bottom: 20px;
+}
+.banner img{
+	margin-top: -150px;
+	   margin-left: -100px;
+}
+
+
+
+.burgers{
+
+position: relative;
+}
+.burgers h1{
+    
+	position: absolute;
+	font-size: 24px;
+	margin-top: 2%;
+    margin-left: 2%;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.burgers span{
+    
+font-size: 36px;
+    
+line-height: 36px;
+}
+
+.burgers h2{
+    
+	position: absolute;
+	font-size: 24px; 
+    margin-top: 1%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: #fff;
+}
+.burgers h3{
+    
+	position: absolute;
+	 font-size: 24px;
+    margin-top: 1%;
+    margin-left: 1%;
+	text-transform: uppercase;
+   color: #fff;
+}
+.tasty-burger{
+	text-align: center;
+}
+.tasty-burger h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 15px;
+	color: #42200B;
+	background: #FFC442;
+}
+
+.tasty-burger h1{
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 900;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.tasty-burger p{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3d2514;
+    margin-bottom: 45px;
+}
+.col-md-4 h2{
+    text-transform: uppercase;
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+.col-md-4 p{
+	font-size: 14px;
+}
+
+
+
+
+.tasty-burger .order_btn{
+    
+	text-transform: uppercase;
+	background: red;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	border: 2px solid red;
+	padding: 10px 20px;
+	transition: .5s ;
+}
+.burger-text:hover .order_btn{
+    background: #fff;
+    color: red;
+}
+.burger2{
+    
+	width: 77%;
+	margin-left: 56px;
+}
+
+.discover{
+	margin-top: 55px;
+
+}
+.discover h3{
+
+	 font-size: 24px;
+    margin-top: 1%;
+    margin-left: 1%;
+	text-transform: uppercase;
+   color: #42200B;
+}
+.discover h1{
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 900;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
